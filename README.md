@@ -3,8 +3,7 @@ Two way to create multi-threading Applications
 
 Program :
 
-public class Threading extends Thread {
-    
+    public class Threading extends Thread {
     public void run(){
         for(int i=0;i<=9;i++){
             System.out.println(i);
@@ -16,8 +15,8 @@ public class Threading extends Thread {
         Threading thread = new Threading();
 
         thread.start();
+       } 
     }
-}
 
 
 2) Implements runnable
